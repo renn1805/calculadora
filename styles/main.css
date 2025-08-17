@@ -1,0 +1,75 @@
+header.conteiner {
+    padding: 25px;
+    background: #cccccc75;
+    display: flex;
+    width: 330px;
+}
+
+div.conteinerCalculadora {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+div.armazemDeNumeros {
+    height: 20px;
+    justify-content: end;
+    padding-right: 20px;
+    background-color: #cccccc63;
+    display: block;
+    border-radius: 6px 6px 0 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+div.conteinerResultado {
+    margin: 0;
+    height: 60px;
+    display: block;
+    background: white;
+    border-radius: 0 0 6px 6px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+div.botoes {
+    gap: 10px;
+    row-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+button {
+    width: 22%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.603);
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+
+button:hover {
+    background-color: #cccccc67;
+}
+
+button.apagaTudo {
+    width: 47%;
+}
+
+button.igual {
+    width: 47%;
+
+}
+
+button.number0 {
+    width: 48%;
+}
